@@ -1,0 +1,148 @@
+GITHUB LINK
+======================================================================================
+https://github.com/arindamslt/AECCOREJAVAAPRIL2025BATCH3.git
+=======================================================================================
+DATE:22.04.2025
+============================================================================
+FEATURES OF JAVA
+=====================================================================
+1.PLATFORM INDEPENDENT
+2.OBJECT ORIENTED PROGRAMMING
+3.MULTITHREADING
+4.ROBUST
+5.DISTRIBUTED
+===================================================================================
+FILE
+====================
+X.java===SOURCE CODE OF JAVA
+javac X.java====JAVA COMPILER====CONVERTED INTO BYTE CODE=====X.class
+java X==== X.class===GOES JVM(JAVA VIRTUAL MACHINE)====CONVERTED===O/P
+JVM
+=========================================
+JAVA VIRTUAL MACHINE
+IT IS AN ABSTRACT MACHINE WHOSE PURPOSE TO EXECUTE COMPILED JAVA CLASS
+======================================================================
+JDK===JAVA DEVELOPMENT TOOL KIT
+JRE===JAVA RUNTIME ENVIRONMENT
+JVM===JAVA VIRTUAL MACHINE
+JIT===JUST IN TIME COMPILER
+=======================================================================
+OBJECT ORIENTED PROGRAMMING
+==============================================================
+CLASS====CLASS IS COLLECTION OF OBJECTS COMMON PROPERTIES AND BEHAVIOUR
+     ======= DEAD TEMPLATE
+OBJECT====REAL WORLD ENTITY
+CHAIR TABLE BOOKSHELF   FURNITURE
+=====================   =========
+OBJECT                   CLASS
+COMMON PROPERTEIS
+===========================================
+LENGTH===========
+WIDTH        VARIABLE
+HEIGHT==========
+COMMON BEHAVIOUR
+=========================
+KEEPINGSOMETHING()=====METHOD  
+====================================================
+FEATURES OF OBJECT RIENTED PROGRAMMING
+==================================================
+1.ENCAPSULATION
+================================================
+CROCIN650
+BINDING OF DATA AND METHOD TOGETHER
+=======================================================
+
+JAVA5
+JAVA8
+JAVA10
+JAVA17
+JAVA24
+IDE===INTEGRATED DEVELOPMENT ENVIRONMENT
+ECLIPSE,NETBEANS,INTELLIJI,STS
+======================================================
+java -version
+======================================================
+UML
+==========================================
+UNIFIED MODELLING LANGUAGE
+==========================================
+PURPOSE 
+========================================
+TO DRAW THE CLASS DIAGRAM.
+============================================
+2.PLOYMORPHISM
+==============================================
+POLY=====MANY
+MORPHISM===FORMS
+TYPES OF POLYMORPHISM
+============================================
+1.STATIC POLYMORPHISM
+2.DYMANIC POLYMORPHISM
+task(int a,int b)
+task(int a,float b)
+task(double a,double b)
+task(5,6);
+task(5,6.5);
+task(6.6,9.6)
+STATIC POLYMORPHISM IS CALLED METHOD OVERLOADDING
+METHOD OVERLOADDING
+=========================================
+SAME METHOD NAME WITH DIFFERENT ARGUMENT PASSING IN THE SAME CLASS BODY IS SAME
+methd1()
+{
+========================BODY
+}
+CONSTRUCTOR IS THE SAME NAME OF THE CLASS NAME.IT IS NOT EVEN VOID OR RETURN TYPE
+BEACUSE IT RETURN A CLASS ITSELF.
+PURPOSE
+=============================================
+1.CREATING THE OBJECT OF CLASS
+2.AT THE TIME OF CREATING THE OBJECT INITIALIZE THE OBJECT
+CLASS
+=======================
+MORE THAN ONE CONSTRUCTOR 
+CONSTRUCTOR OVERLOADDING
+======================================================================
+3.INHERITANCE
+====================================================
+AQUIRING THE PROPERTY OF ONE CLASS INTO ANOTHER CLASS
+================================================================
+TYPES OF INHERITANCE
+=================================================
+1.SINGLE INHERITANCE
+2.MULTILEVL INHERITANCE
+3.HIERARCHICAL INHERITANCE
+DYNAMIC POLYMORPHISM
+===========================================
+DYNAMIC POLYMORPHISM IS CALLED METHOD OVERRIDDING
+===================================================
+METHOD OVERRIDDING
+====================================================
+SAME METHOD NAME BOTH IN THE PARENT CLASS AND THE CHILD CLASS BUT
+BODY IS DIFFERENT.
+UTILITY OF SUPER
+======================================================================
+1.CALLING THE SUPER CLASS CONSTRUCTOR
+2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
