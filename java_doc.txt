@@ -125,13 +125,131 @@ UTILITY OF SUPER
 1.CALLING THE SUPER CLASS CONSTRUCTOR
 2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
 ====================================================================
+DATE:23.04.2025
+CONCRETE OR NORMAL METHOD
+======================================================
+public void show()
+{
+}
+=========================================================================
+4.ABSTRACTION
+=============================================================
+1.ABSTRACT METHOD
+=======================================================
+METHOD HAS NO BODY
+public abstract void show();
+2.ABSTRACT CLASS
+==========================================
+A CLASS CONSIDERED TO BE ABSTRACT IF THERE IS ATLEAST ONE METHOD IS ABSTRACT
+abstract class Test
+{
+   public  abstract void show();
+public void show1()
+ {
+  }
+  
+}
+WE CAN'T CREATE OBJECT OF ABSTRACT CLASS
+======================================================================================
+5.DYNAMIC BINDING
+========================================================================
+IT DECIDES WHICH OBJECT WHICH METHOD TO BE CALLED AT THE RUNTIME.
+MODIFIER
+=========================================================================
+MODIFIER TELLS HOW A MEMBER OF A CLASS IS BEING ACCESSED INTO ANOTHER CLASS
+class Test
+{
+public int x=25;
+}
+class Test1
+{
 
+}
+LIST OF MODIFIERS
+===========================================
+1.PRIVATE================
+2.PROTECTED   ACCESS SPECIFIER
+3.PUBLIC
+4.DEFAULT================
+5.STATIC
+6.FINAL
+7.ABSTRACT
+8.SYNCHRONIZED
+9.NATIVE
+====================================================
+PACKAGE
+==================================================
+COLLECTION OF SIMILLAR CLASSES ARE GROUP TOGETHER INTO A SINGLE UNIT CALLED PACKAGE
+ PRIVATE MEMBERS ARE ACCESSABLE SAME CLASS ONLY.
+ DEFAULT  MEMBERS ARE ACCESSABLE SAME CLASS AND IT'S CHILD CLASS IF THER ARE IN SAME PACKAGE
+ PUBLIC AND PROTECTED MEMBERS ARE ACCESSABLE SAME AND IT'S CHILD CLASS EVEN IF
+THEY ARE IN DIFFERENT PACKAGE.
+==============================================================================
+STATIC
+================================================================================
+IF WE DELCARE THE STATIC VARIABLE OR STATIC METHOD NO NEED TO CREATE A OBJECT
+TO ACCESS THE METHOD AND VARIABLE
+================================================================================
+RESTRICTION
+===============================================================================
+STATIC MEMBER ARE ACCESSABLE WITHIN STATIC METHOD
+static int x=25;
+FINAL
+===========================================
+IF WE DECLARE A VARIABLE IS FINAL IT IS CONSTANT
+IF WE DECALRE A METHOD IS FINAL IT CAN'T BE OVERRIDDEN
+IF WE DECLARE A CLASS IS FINAL IT CAN'T BE EXTENDED
+================================================================================
+CLASS
+=================================================================
+public class
+Super Class
+Child Class
+NESTED CLASS
+===========================================================================
+CLASS WITHIN CLASS IS CALLED NESTED CLASS
+TYPES OF NESTED CLASS
+=============================================
+1.STATIC NESTED CLASS
+2.NON STATIC NESTED CLASS CALLED INNER CLASS
+================================================================================
+class X====OUTER CLASS
+{
+============================
+  class Y===INNER CLASS
+   {
 
+   }
+}
+class Test
+{
+   Inner inn=new Inner();//NOT POSSIBLE
 
-
-
-
-
+IF I DELCLARE ANY VARIABLE IN OUTER CLASS IT IS ACCESSABLE TO THE INNER CLASS
+IF WE DECLARE ANY VARIABLE IN INNER CLASS IT IS NOT ACCESSABLE IN OUTTER CLASS
+WE CAN'T CREATE OBJECT OF INNER CLASS OUTSIDE THE OUTER CLASS.
+THIS
+=================================================================
+THIS IS USED TO INVOKE THE CURRENT OBJECT
+=====================================================================
+int n;
+void add()
+{
+  int n;
+}
+========================================================================================
+INTERFACE
+========================================================================================
+INTERFACE IS A CONTRACT BEWTEEN THE IMPLEMENTED CLASS AND CLIENT CODE
+IN INTERFACE ALL METHODS BY DEFAULT PUBLIC AND ABSTRACT
+====================================================================================
+CONSOLE INPUT OUPUT
+==============================================================================
+CONSOLE INPUT OUTPUT
+=====================================================================
+BUFFER READER CLASS====java.io.*;
+SCANNER================java.util.*
+=======================================================================
 
 
 
