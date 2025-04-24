@@ -250,10 +250,54 @@ CONSOLE INPUT OUTPUT
 BUFFER READER CLASS====java.io.*;
 SCANNER================java.util.*
 =======================================================================
-
-
-
-
+DATE:24.04.2025
+==================================================================================
+EXCEPTION HANDELLING
+================================================================================
+ERROR VS   EXCEPTION
+==========================================================================
+EXCEPTION IS AN EVENT WHICH OCCUR DURING THE EXECUTION PROGRAM.
+IF WE HANDLE THE EXCEPTION THEN IT WILL PREVENT FROM ABNORMAL TERMINATION.
+======================================================================================
+ERROR===ERROR IS NOT RECOVERABLE
+EXCEPTION IS RECOVERABLE
+=================================================================================
+HIERARCHY OF EXCEPTION
+=====================================================================================
+TYPES OF EXCEPTION
+=============================================
+1.UNCHECKED====RUNTIME EXCEPTION AND IT'S SUBCLASS
+2.CHECKED======OTHER THAN RUNTIME EXCEPTION AND IT'S SUBCLASS
+3.USER DEFINED EXCEPTION====IT IS CREATED BY DEVELOPER FOR THE PROJECT PURPOSE
+                            WHICH IS NOT DEFINED BY JAVA
+EXCEPTION HANDLE BY
+============================================================
+1.TRY
+2.CATCH
+3.FINALLY
+4.THROW====GENERALLY USE TO THROW THE USER DEFINED EXCEPTION OBJECT
+5.THROWS====IF WANT TO HANDLE THE EXCEPTION WITHOUT TRY AND CATCH THEN WE CAN
+            USE THROWS CLAUSE ALONG WITH EXCEPTION CLASS NAME.
+            BUT YOU HAVE TO HANDLE BOTH CALLER AND CALLE ENVIRONMENT.
+=============================================================
+UNCHECKED EXCEPTION
+=============================================================
+EXCEPTION HANDELLING MESSAGE
+================================================
+1.EXCEPTIONOBJECT.printstacktrace()=========>1.EXCEPTION CLASS NAME ALONG WITH THE PACKAGE
+                                            2.EXCEPTION MESSAGE
+                                           3.LINE NUMBER WHERE ERROR OCCURS
+2.System.out.println(ExceptionObject);======1.EXCEPTION CLASS NAME ALONG WITH THE PACKAGE
+                                              2.EXCEPTION MESSAGE
+3.System.out.println(ExceptionObject.getMessage())====HERE EXCEPTION MESSAGE PRINT
+===========================================================================================
+FINALLY
+===========================================================
+WHETHER EXCEPTION OCCUR OR NOT IT WILLALWAYS BE EXECUTED
+PURPOSE
+==============================================
+TO CLEAN UP THE TASK
+=========================================================
 
 
 
