@@ -298,6 +298,112 @@ PURPOSE
 ==============================================
 TO CLEAN UP THE TASK
 =========================================================
+DATE:25.04.2025
+==================================================================================
+STRING HANDELLING
+============================================================================
+STRING IMMUTABLE OBJECT
+String s=new String("AJOY");//OBJECT
+String s1="AJOY";//STRING LITERAL
+========================================================================================
+STRING METHODS
+===========================================================================
+isEmpty()
+trim()
+indexOf()
+lastIndexOf()
+replace()
+substring()
+split()
+charAt()
+toUpperCase()
+toLowerCase()
+===================================================================================
+javap java.lang.String
+class String extends Object
+{
+   public int equals()
+  {
+      check the content
+
+   }
+
+}
+============================================================================================
+
+capacity()
+length()
+(CURRENT CAPACITY+1)*2
+============================================================================================
+MULTITHREADING
+========================================================
+1.MULTIPROCESSING==MULTIPLE PROCESS ARE RUNNING SIMULTENEOUSLY BY MULTIPLE CPU
+2.MULTITASKING=====MULTIPLE TASKS ARE RUNNING SIMULTENEOUSLY BY SINGLE CPU.
+3.MULTITHREADING
+==============================================================
+THREAD IS CALLED SMALLEST UNIT OF DESPATCHABLE CODE
+MULTIPLE THREADS ARE RUNNING SIMULTENEOUSLY
+=================================================================
+LIFE CYCLE OR STAGES OF THE THREAD
+=============================================================
+CREATION OF THREAD
+===========================================================
+THREAD CAN BE CREATE TWO WAYS
+=====================================
+1.EXTENDING THE THREAD CLASS
+2.IMPLEMENTING THE RUNNABLE INTERFACE
+class FtsThread extends X, Thread=================NOT POSSIBLE
+{
+
+
+}
+class FstThread extends X implements Runnable=====POSSIBLE
+{
+
+}
+IMPLEMENTS RUNNABLE IS ALWAYS BETTER THAN EXTENDING THREAD CLASS
+=====================================================================================
+1.IF WE EXTEND THE CLASS, CLASS BECOMES HEAVY.
+2.IF A CHILD CLASS NEED TO GET THREAD FACILITY IT IS NOT POSSIBLE IN CASE
+  OF EXTENDING CLASS BECAUSE JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
+  BUT IN CASE OF IMPLEMENTS IT IS POSSIBLE.
+=========================================================================================
+IF WE CALL RUN() METHOD INSTEAD OF START METHOD THEN WHAT IS THE EFFECT OF
+THE THREAD PROGRAMMING
+===========================================================================================
+IT BEHAVES LIKE A NORMAL CLASS.NO THREAD FACILITY.
+======================================================================================
+PRIORITY MEANS
+==========================================================================
+THREAD SCHEDULING
+====================================================
+THREAD PRIORITIES
+==============================================
+RANGES BETWEEN 1 TO 10
+MAX=========10
+MIN=========1
+NORM========5===BY DEFAULT
+=======================================================
+DAEMON THREAD
+========================================================================
+IT IS A LOW PRIORITY THREAD.IT IS GENERALLY RUNING ON BACKGROUND.
+WHEN MAIN THREAD ENDS IT IS NOT WAIT FOR DAEMON THREAD TO FINISH THE JOB.
+============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
