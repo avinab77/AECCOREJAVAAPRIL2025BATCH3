@@ -389,7 +389,105 @@ DAEMON THREAD
 IT IS A LOW PRIORITY THREAD.IT IS GENERALLY RUNING ON BACKGROUND.
 WHEN MAIN THREAD ENDS IT IS NOT WAIT FOR DAEMON THREAD TO FINISH THE JOB.
 ============================================================================
-
+DATE:26.04.2025
+===========================================================================
+TERM
+==========================================================================
+1.SHARED RESOURCE
+2.SYNCHRONIZATION
+3.MUTEX
+4.CRITICAL SECTION
+5.DEADLOCK
+=================================================================
+CONSUMER PRODUCER PROBLEM
+==========================================================================
+COLLECTION FRAMEWORK
+===========================================================================
+COLLECTION IS AN OBJECT WHICH HOLDS GROUP OF OBJECTS
+IT BELONGS TO java.util.* PACKAGE
+ARRAY                        VS             COLLECTION
+===================================================================================
+1.IT IS IN FIXED SIZE                  1.IT IS IN DYNAMIC NATURE
+2.IT ALLOWS ONLY HOMOGENEOUS ELEMENTS  2.IT ALLOWS BOTH HOMOGENEOUS AND HETEROGENEOUS ELEMENTS
+3.IN CASE OF MEMORY MANAGEMENT         3.IN CASE OF MEMORY MANAGEMENT RECOMMENDED
+  NOT RECOMMENDED
+4.PERFORMANCE WISE ARRAY BETTER        4.PERFORMANCE WISE ARRAY IS BETTER THAN COLLECTION
+5.THERE IS NO UNDERLYING DATA STRUCTURE 5.UNDERLYING DATASTRUCTURE IS BEING THERE IN COLLECTION.
+INVOLVED IN ARRAY.THEREFORE NO PREDEFINED THEREFORE PREDEFINED METHODS ARE AVAILABLE
+METHODS ARE AVAILABLE
+===========================================================================================
+ARRAYLIST
+============================================================================================
+FEATURES OF ARRAYLIST
+=========================================================================================
+1.DYNAMIC ARRAY
+2.UNDERLYING DATASTRUCTURE IS GROWABLE OR RESIZABLE ARRAY
+3.IT ALLOW DUPLICATE VALUE
+4.IT ALLOW  BOTH HOMOGEBNEOUS AND HETEROGENEOUS ELEMENTS
+5.IT USED FOR STORING DATA AND FETCHING DATA
+6.INSERTION ORDER IS PRESERVED
+======================================================================
+VECTOR SAME AS ARRAYLIST BUT SYNCHRONIOZED.
+=====================================================================
+LINKEDLIST
+===============================================================================
+1.UNDERLYING DATASTRUCTURE IS DOUBLY LINKED LIST
+2.IT ALLOW DUPLICATE VALUE
+3.IT ALLOW  BOTH HOMOGEBNEOUS AND HETEROGENEOUS ELEMENTS
+4.IT USED FOR MIDDLE INSERTION AND DELETION
+5.INSERTION ORDER IS PRESERVED
+STACK
+==============================================================
+USING LIFO(LAST IN FIRST OUT) ALGORITHM
+=========================================================================================
+HASHSET
+===============================================================
+1.UNDERLYING DATASTRUCTURE IS HASHTABLE
+2.NO DUPLICATION ALLOWED
+3.IT ALLOW  BOTH HOMOGEBNEOUS AND HETEROGENEOUS ELEMENTS
+4.IT USED FOR SEARCHING
+5.DATA ARE FETCHED BASED ON HASHCODE ALGORITHM
+LINKED HASHSET
+===================================================================
+1.UNDERLYING DATASTRUCTURE IS HASHTABLE+LINKEDLIST
+2.NO DUPLICATION ALLOWED
+3.IT ALLOW  BOTH HOMOGEBNEOUS AND HETEROGENEOUS ELEMENTS
+4.IT USED FOR WHERE NO DUPLICATION AND DATA ARE FETCHED IN INSERTED ORDER
+TREESET
+============================================================================
+1.UNDERLYING DATA STRUCTURE IS RED BLACK TREE
+2.IT ALLOWS ONLY HOMOGENEOUS DATA
+3.NO DUPLICATION ALLOWED
+4.DATA ARE FETCHED IN ASCENDING ORDER
+===================================================================================  
+TREESET IMPLEMENTATION WITH SORTING OPERARION
+CUSTOMIZED SORTING ORDER OF TREESET
+=========================================================================================
+Comparable Interface
+========================================================
+public int compareTo(Object o1,Object o2)===IT BELONGS TO java.lang.* PACKAGE
+================================================================================
+Comparator Interface
+==============================================================================
+public int compare(Objec o1,Object o2)====IT BELONGS TO java.util.* PACKAGE
+===============================================================================
+MAP
+======================================================
+COMBINATION OF KEY & VALUE PAIR.
+HERE KEY'S ARE NOT DUPLICATED
+VALUE MAY DUPLICATED
+HASHMAP
+====================================================
+1.UNDERLYING DATA STRUCTURE IS HASHTABLE
+2.NOT SYNCHRONIZED
+3.DATA ARE FETCHED BASED ON HASH CODE OF KEY
+LINKED HASHMAP
+=============================================
+DATA ARE FETCHED ON INSERTION ORDER OF KEY
+TREE MAP
+==============================================
+DATA ARE FETCHED ASCENDING ORDER OF KEY.
+==================================================
 
 
 
