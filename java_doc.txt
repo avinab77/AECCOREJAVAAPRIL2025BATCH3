@@ -488,8 +488,87 @@ TREE MAP
 ==============================================
 DATA ARE FETCHED ASCENDING ORDER OF KEY.
 ==================================================
-
-
+DATE:27.04.2025
+=======================================================================================
+CURSOR IN COLLECTION
+=======================================================================================
+ITERATOR=====FORWARD DIRECTION
+LISTITERATOR==BOTH FORWARD AND BACKWARD DIRECTION
+ENUMERATOR====FORWARD DIRECTION
+POJO CLASS
+===========================================
+PLAIN OLD JAVA OBJECT
+=======================
+CONSTRUCTOR
+GETTER() AND SETTER()
+toString()
+for(Product p:arr)
+{
+	System.out.println(p.getPid()+"==>"+p.getPname()+"==>"+p.getPqty()+"===>"+p.getPrice()+"==>"+p.getCompnm());
+}
+=================================================================================================
+JAVA8 FEATURES
+===============================================================================================
+1.FUNCTIONAL INTERFACE
+2.LAMDA EXPRESSION
+3.PREDEFINED FUNCTIONAL INTERFACE
+    1.PREDICATE
+    2.FUNCTION
+    3.CONSUMER
+    4.SUPPLIER
+4.STREAM API
+   filter(Predicate )
+   map(Function)
+5.DATE TIME API
+6.OPTIONAL CLASS
+7.DEFAULT METHOD IN INTERFACE
+8.STATIC METHOD IN INTERFACE 
+================================================================================
+JAVA8
+=============================================================================
+JAVA5
+JAVA8
+JAVA10
+JAVA17
+============================================================================
+JAVA8
+===================================================================
+ENABLE FUNCTIONAL PROGRAMMING
+CODE IS SIMPLE AND CODE IS CONCISE
+==========================================================  
+FUNCTIONAL INTERFACE
+==================================================================
+IF THE INTERFACE HAS ONLY ONE ABSTRACT METHOD THEN IT IS CALLED
+FUNCTIONAL INTERFACE.
+@FunctionalInterfcae 
+LAMDA EXPRESSION
+==============================================
+1.ANNONYMOUS FUNCTION
+2.NO RETURN TYPE
+3.NO MODIFIER
+PREDEFINED FUNCTIONAL INTERFACE
+====================================
+1.PREDICATE<T,R>
+T===INPUT
+R===ALWAYS TERURN TYPE BOOLEAN
+METHOD==test()
+======================================================
+FUNCTION<T,R>
+T===INPUT
+R===OUPUT
+METHOD:apply()
+=========================================================
+CONSUMER<T>
+===============================================
+INPUT
+OUTPUT==ALWAYS VOID
+METHOD:ACCEPT()
+========================================================================
+SUPPLIER<R>
+NO INPUT
+OUTPUT CAN BE ANY TYPE
+METHOD:GET()
+===========================================================================
 
 
 
